@@ -1,0 +1,531 @@
+﻿:root{
+  --ink:#111;
+  --muted:#4b5563;
+  --border:#e5e7eb;
+  --soft:#f7f7f8;
+  --shadow:0 10px 30px rgba(0,0,0,.08);
+  --radius:18px;
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  color:var(--ink);
+  background:#fff;
+}
+
+.wrap{
+  max-width:1120px;
+  margin:0 auto;
+  padding:28px 18px 60px;
+}
+
+.nav-pills{
+  margin:0 0 24px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+
+.nav-pill{
+  padding:8px 14px;
+  border-radius:999px;
+  border:1px solid #d6e1ff;
+  background:#fff;
+  color:#111;
+  text-decoration:none;
+  font-size:14px;
+}
+
+.nav-pill:hover{background:#f3f6ff;}
+
+.page-title{
+  margin:0 0 12px;
+  font-size:clamp(38px,5vw,66px);
+  letter-spacing:-.03em;
+  line-height:1.02;
+}
+
+.intro{
+  margin:0 0 24px;
+  color:var(--muted);
+  font-size:18px;
+  line-height:1.65;
+  max-width:none;
+}
+
+.hero{
+  margin:24px 0 28px;
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  overflow:hidden;
+  box-shadow:var(--shadow);
+  background:var(--soft);
+}
+
+.hero img{
+  width:100%;
+  height:min(52vh,520px);
+  object-fit:cover;
+  display:block;
+}
+
+.section-title{
+  margin:34px 0 14px;
+  font-size:28px;
+  line-height:1.2;
+}
+
+.project-grid,
+.range-grid{
+  margin-top:18px;
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:16px;
+}
+
+.project-card,
+.range-card{
+  border:1px solid var(--border);
+  border-radius:16px;
+  overflow:hidden;
+  box-shadow:0 8px 22px rgba(0,0,0,.06);
+  text-decoration:none;
+  color:inherit;
+  background:#fff;
+  transition:transform .12s ease, box-shadow .12s ease;
+}
+
+.project-card:hover,
+.range-card:hover{
+  transform:translateY(-2px);
+  box-shadow:0 16px 40px rgba(0,0,0,.12);
+}
+
+.project-card-pending:hover{
+  transform:none;
+  box-shadow:0 8px 22px rgba(0,0,0,.06);
+}
+
+.project-card img,
+.range-card img,
+.project-placeholder{
+  width:100%;
+  aspect-ratio:1 / 1;
+  object-fit:cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#f3f4f6;
+}
+
+.project-placeholder{
+  color:#9ca3af;
+  font-size:42px;
+  font-weight:800;
+  letter-spacing:.08em;
+}
+
+.project-card-body,
+.range-card-body{
+  padding:14px 16px 16px;
+}
+
+.project-card-body h3,
+.range-card-body h3{
+  margin:0 0 8px;
+  font-size:20px;
+  line-height:1.2;
+}
+
+.project-card-body p,
+.range-card-body p{
+  margin:0;
+  color:var(--muted);
+  font-size:15px;
+  line-height:1.45;
+}
+
+.eyebrow{
+  margin:0 0 7px !important;
+  color:#6b7280 !important;
+  font-size:12px !important;
+  line-height:1.2 !important;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+
+.pending-note{
+  margin-top:10px !important;
+  font-size:13px !important;
+  font-weight:700;
+  color:#111 !important;
+}
+
+.project-summary{
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:18px;
+  box-shadow:var(--shadow);
+  background:#fff;
+  color:var(--muted);
+  font-size:17px;
+  line-height:1.6;
+}
+
+.project-summary p{
+  margin:0 0 12px;
+}
+
+.project-summary p:last-child{
+  margin-bottom:0;
+}
+
+.work-id-range{
+  margin-top:7px !important;
+  font-size:13px !important;
+  font-weight:700;
+  color:#111 !important;
+}
+
+footer{
+  margin-top:34px;
+  padding-top:16px;
+  border-top:1px solid var(--border);
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.5;
+}
+
+@media (max-width:1050px){
+  .project-grid,
+  .range-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}
+
+@media (max-width:640px){
+  .project-grid,
+  .range-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+/* NFT project detail page styles */
+.research-grid{
+  margin-top:18px;
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:16px;
+}
+
+.research-card{
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:16px;
+  box-shadow:0 8px 22px rgba(0,0,0,.06);
+  background:#fff;
+}
+
+.research-card h3{
+  margin:0 0 8px;
+  font-size:18px;
+  line-height:1.2;
+}
+
+.research-card p{
+  margin:0;
+  color:var(--muted);
+  font-size:15px;
+  line-height:1.5;
+}
+
+.source-list{
+  margin:18px 0 0;
+  padding:0;
+  list-style:none;
+  display:grid;
+  gap:10px;
+}
+
+.source-list li{
+  border:1px solid var(--border);
+  border-radius:14px;
+  background:#fff;
+  box-shadow:0 6px 16px rgba(0,0,0,.045);
+}
+
+.source-list a{
+  display:block;
+  padding:13px 15px;
+  color:#111;
+  text-decoration:none;
+  font-weight:650;
+  line-height:1.35;
+  overflow-wrap:anywhere;
+}
+
+.source-list a:hover{
+  background:#f3f6ff;
+}
+
+.placeholder-hero{
+  min-height:320px;
+}
+
+.placeholder-hero .project-placeholder{
+  height:360px;
+}
+
+@media (max-width:900px){
+  .research-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+.variant-grid{
+  margin-top:18px;
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:16px;
+}
+
+.variant-card{
+  border:1px solid var(--border);
+  border-radius:16px;
+  overflow:hidden;
+  box-shadow:0 8px 22px rgba(0,0,0,.06);
+  background:#fff;
+}
+
+.variant-card img,
+.variant-card .project-placeholder{
+  width:100%;
+  aspect-ratio:1 / 1;
+  object-fit:cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#f3f4f6;
+}
+
+.variant-card-body{
+  padding:14px 16px 16px;
+}
+
+.variant-card h3{
+  margin:0 0 8px;
+  font-size:18px;
+  line-height:1.2;
+}
+
+.variant-card p{
+  margin:0 0 6px;
+  color:var(--muted);
+  font-size:15px;
+  line-height:1.5;
+}
+
+.variant-card p:last-child{
+  margin-bottom:0;
+}
+
+@media (max-width:1050px){
+  .variant-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}
+
+@media (max-width:640px){
+  .variant-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+/* Area 54 Cards/Packs gallery styles */
+.area-card-grid{
+  margin-top:18px;
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:16px;
+}
+
+.area-card{
+  margin:0;
+  border:1px solid var(--border);
+  border-radius:16px;
+  overflow:hidden;
+  background:#fff;
+  box-shadow:0 8px 22px rgba(0,0,0,.06);
+}
+
+.area-card img{
+  width:100%;
+  aspect-ratio:1 / 1;
+  object-fit:cover;
+  display:block;
+  background:#f3f4f6;
+}
+
+.area-card figcaption{
+  padding:10px 10px 12px;
+  text-align:center;
+  font-size:14px;
+  line-height:1.3;
+  font-weight:700;
+  color:#111;
+}
+
+@media (max-width:1050px){
+  .area-card-grid{
+    grid-template-columns:repeat(3,minmax(0,1fr));
+  }
+}
+
+@media (max-width:760px){
+  .area-card-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}
+
+@media (max-width:430px){
+  .area-card-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+
+/* BEGIN NFT compact index and Area 54 gallery overrides */
+/* Smaller catalogue-style project cards on the main NFT index. */
+.project-grid{
+  grid-template-columns:repeat(4,minmax(0,1fr)) !important;
+  gap:18px !important;
+}
+
+.project-card{
+  border-radius:18px !important;
+}
+
+.project-card img,
+.project-card .project-placeholder{
+  width:100% !important;
+  height:220px !important;
+  max-height:220px !important;
+  aspect-ratio:auto !important;
+  object-fit:contain !important;
+  object-position:center center !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  background:#f8fafc !important;
+  padding:10px !important;
+  border-bottom:1px solid var(--border) !important;
+}
+
+.project-card-body{
+  padding:16px 18px 18px !important;
+  text-align:center !important;
+}
+
+.project-card-body h3,
+.project-card-body p,
+.project-card-body .eyebrow,
+.project-card-body .pending-note{
+  text-align:center !important;
+}
+
+/* Area 54 Cards/Packs gallery: prevent image cropping. */
+.area-card-grid{
+  grid-template-columns:repeat(4,minmax(0,1fr)) !important;
+  gap:18px !important;
+}
+
+.area-card img{
+  width:100% !important;
+  height:220px !important;
+  max-height:220px !important;
+  aspect-ratio:auto !important;
+  object-fit:contain !important;
+  object-position:center center !important;
+  display:block !important;
+  background:#f8fafc !important;
+  padding:10px !important;
+  border-bottom:1px solid var(--border) !important;
+}
+
+.area-card figcaption{
+  min-height:56px !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  text-align:center !important;
+  padding:12px 14px !important;
+  font-size:15px !important;
+  line-height:1.3 !important;
+}
+
+@media (max-width:1100px){
+  .project-grid,
+  .area-card-grid{
+    grid-template-columns:repeat(3,minmax(0,1fr)) !important;
+  }
+}
+
+@media (max-width:820px){
+  .project-grid,
+  .area-card-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  }
+}
+
+@media (max-width:560px){
+  .project-grid,
+  .area-card-grid{
+    grid-template-columns:1fr !important;
+  }
+
+  .project-card img,
+  .project-card .project-placeholder,
+  .area-card img{
+    height:220px !important;
+    max-height:220px !important;
+  }
+}
+/* END NFT compact index and Area 54 gallery overrides */
+
+
+/* BEGIN Area 54 Work ID caption styles */
+.area-card figcaption{
+  min-height:68px !important;
+  display:flex !important;
+  flex-direction:column !important;
+  gap:4px !important;
+  align-items:center !important;
+  justify-content:center !important;
+  text-align:center !important;
+  padding:12px 14px !important;
+}
+
+.area-card-title{
+  display:block !important;
+  width:100% !important;
+  font-size:15px !important;
+  line-height:1.28 !important;
+  font-weight:700 !important;
+  color:#111 !important;
+}
+
+.area-work-id{
+  display:block !important;
+  width:100% !important;
+  font-size:13px !important;
+  line-height:1.2 !important;
+  font-weight:800 !important;
+  letter-spacing:.03em !important;
+  color:#4b5563 !important;
+}
+/* END Area 54 Work ID caption styles */
+

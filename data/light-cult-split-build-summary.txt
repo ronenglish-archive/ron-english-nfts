@@ -1,0 +1,24 @@
+﻿Light Cult Crypto Club Split Build v4
+Generated: 05/14/2026 10:10:41
+
+Source folder: E:\Zotero-organized-export\JPG-JPEG\Light Cult NFTs
+Hub repo: D:\github\ron-english-nfts
+Repos root: D:\github
+
+Images selected: 9746
+Repo batch size: 1000
+Page size: 100
+Total split repos: 10
+Link mode: Local
+
+Starting Work ID: RE-001811
+Last Work ID: RE-011556
+
+Generated image filenames: Work ID + original file extension
+Original source images renamed: No
+
+Hub repo size MB after cleanup/build: 11.46
+
+Split manifest: D:\github\ron-english-nfts\data\light-cult-split-manifest.csv
+Repo summary: D:\github\ron-english-nfts\data\light-cult-split-repo-summary.csv
+Backup folder: D:\github-backups\ron-english-nfts\build-light-cult-split-repos-v4-20260514-101030

@@ -1,0 +1,23 @@
+﻿Light Cult Crypto Club Work ID Range Report
+Generated: 05/14/2026 10:12:18
+
+Manifest: D:\github\ron-english-nfts\data\light-cult-split-manifest.csv
+
+First Work ID used: RE-001811
+Last Work ID used: RE-011556
+Total manifest rows: 9746
+Valid Work ID rows: 9746
+Unique Work IDs: 9746
+
+Expected count if continuous: 9746
+Missing IDs inside this range: 0
+Duplicate Work ID groups: 0
+
+RESERVED RANGE:
+RE-001811 through RE-011556
+
+NEXT AVAILABLE WORK ID AFTER LIGHT CULT:
+RE-011557
+
+Reserved IDs CSV:
+D:\github\ron-english-nfts\data\light-cult-reserved-work-ids-20260514-101218.csv

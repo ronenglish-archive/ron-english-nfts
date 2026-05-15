@@ -1,0 +1,10 @@
+﻿Area 54 Cards/Packs Work ID Range
+Generated: 05/15/2026 05:08:30
+
+Image count: 414
+First Work ID: RE-011557
+Last Work ID: RE-011970
+Reserved range: RE-011557 through RE-011970
+Next available Work ID: RE-011971
+
+Manifest: D:\github\ron-english-nfts\area-54-cards-packs\data\area-54-cards-packs-image-manifest.csv
