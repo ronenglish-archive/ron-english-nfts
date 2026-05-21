@@ -1,0 +1,22 @@
+﻿Repair remaining LCCC broken local images
+Generated: 2026-05-21 12:49:35
+
+Problem CSV source: D:\github\ron-english-nfts\data\generated\audit-lccc-652-image-gap-pages-v1-20260521-124708\lccc-652-image-gap-broken-or-review.csv
+Rows in source CSV: 652
+Target broken local image rows: 652
+Keep query string: False
+Overwrite images: False
+
+Images ready/would download: 652
+Images downloaded: 0
+Images already existed: 0
+HTML files ready/would update: 652
+HTML files changed: 0
+Rows skipped: 0
+Rows missing required data: 0
+Errors: 0
+
+Report folder: D:\github\ron-english-nfts\data\generated\repair-lccc-652-broken-images-v1-20260521-124933
+Actions CSV: D:\github\ron-english-nfts\data\generated\repair-lccc-652-broken-images-v1-20260521-124933\lccc-652-broken-image-repair-actions.csv
+Mode: REPORT ONLY
+Changes made: none. Report-only mode.

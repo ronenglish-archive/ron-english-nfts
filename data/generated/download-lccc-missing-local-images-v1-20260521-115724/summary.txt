@@ -1,0 +1,20 @@
+﻿LCCC missing local image download report
+Generated: 2026-05-21 11:57:25
+
+Audit source: D:\github\ron-english-nfts\data\generated\audit-lccc-missing-pages-and-images-v1-20260521-110352\lccc-local-image-issues.csv
+Rows in audit CSV: 884
+Target rows selected: 232
+Only missing pages: True
+Keep query string: False
+Overwrite existing files: False
+
+Ready/would download: 0
+Downloaded: 0
+Skipped because destination exists: 232
+Rows missing required data: 0
+Errors: 0
+
+Report folder: D:\github\ron-english-nfts\data\generated\download-lccc-missing-local-images-v1-20260521-115724
+Download report CSV: D:\github\ron-english-nfts\data\generated\download-lccc-missing-local-images-v1-20260521-115724\lccc-missing-local-image-download-report.csv
+Mode: DOWNLOAD
+No existing images were overwritten.

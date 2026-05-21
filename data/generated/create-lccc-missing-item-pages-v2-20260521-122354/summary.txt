@@ -1,0 +1,17 @@
+﻿Create missing LCCC item pages
+Generated: 2026-05-21 12:24:15
+
+Missing pages source: D:\github\ron-english-nfts\data\generated\audit-lccc-missing-pages-and-images-v1-20260521-115919\lccc-missing-pages-to-create-audit.csv
+Rows in source CSV: 232
+Rows eligible to create: 232
+
+Ready/would create: 232
+Created: 232
+Skipped because target exists: 0
+Missing local image: 0
+Missing template page: 0
+Errors: 0
+
+Report folder: D:\github\ron-english-nfts\data\generated\create-lccc-missing-item-pages-v2-20260521-122354
+Actions CSV: D:\github\ron-english-nfts\data\generated\create-lccc-missing-item-pages-v2-20260521-122354\lccc-create-missing-item-pages-actions.csv
+Mode: APPLY

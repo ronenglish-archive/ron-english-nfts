@@ -1,0 +1,17 @@
+﻿LCCC item-page image src audit/fix
+Generated: 2026-05-21 12:42:22
+
+Full audit source: D:\github\ron-english-nfts\data\generated\audit-lccc-missing-pages-and-images-v1-20260521-123130\lccc-post-apply-full-token-audit.csv
+Rows checked: 8166
+Image src already OK: 8166
+Problem rows found: 0
+Rows ready/would fix: 0
+Rows fixed: 0
+Rows with no img tag: 0
+Errors: 0
+
+Report folder: D:\github\ron-english-nfts\data\generated\audit-and-fix-lccc-item-image-srcs-v1-20260521-124204
+Full image-src audit CSV: D:\github\ron-english-nfts\data\generated\audit-and-fix-lccc-item-image-srcs-v1-20260521-124204\lccc-item-image-src-audit.csv
+Problem rows CSV: D:\github\ron-english-nfts\data\generated\audit-and-fix-lccc-item-image-srcs-v1-20260521-124204\lccc-item-image-src-problems.csv
+Mode: REPORT ONLY
+Changes made: none. Report-only mode.

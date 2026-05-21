@@ -1,0 +1,22 @@
+﻿Fast LCCC HTML Work ID update from spreadsheet map
+Generated: 2026-05-21 10:57:32
+
+Map source: D:\github\ron-english-nfts\data\generated\renumber-lccc-workids-from-spreadsheet-v2-20260521-091417\lccc-spreadsheet-workid-map.csv
+Valid mapped token rows: 8818
+Mapped Work ID range: RE-001811 through RE-010628
+Repos represented in map: 10
+Missing item pages or repos: 232
+
+File actions total: 8698
+Files ready/would change: 0
+Files changed: 8679
+Files skipped: 19
+Missing files in file action list: 0
+Files with errors: 0
+
+Report folder: D:\github\ron-english-nfts\data\generated\update-lccc-html-workids-from-map-fast-v4-20260521-105700
+File actions CSV: D:\github\ron-english-nfts\data\generated\update-lccc-html-workids-from-map-fast-v4-20260521-105700\lccc-html-fast-file-actions.csv
+Missing pages CSV: D:\github\ron-english-nfts\data\generated\update-lccc-html-workids-from-map-fast-v4-20260521-105700\lccc-html-fast-missing-pages.csv
+Repo ranges CSV: D:\github\ron-english-nfts\data\generated\update-lccc-html-workids-from-map-fast-v4-20260521-105700\lccc-html-fast-repo-ranges.csv
+Mode: APPLY
+Backup folder: D:\github-backups\ron-english-nfts\update-lccc-html-workids-from-map-fast-v4-20260521-105700

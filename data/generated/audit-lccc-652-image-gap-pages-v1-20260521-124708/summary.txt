@@ -1,0 +1,20 @@
+﻿LCCC remaining image-gap item-page audit
+Generated: 2026-05-21 12:47:11
+
+Full token audit source: D:\github\ron-english-nfts\data\generated\audit-lccc-missing-pages-and-images-v1-20260521-124250\lccc-post-apply-full-token-audit.csv
+Rows with token-named local image gap checked: 652
+
+Pages using existing local image at old/different path: 0
+Pages using external image URL: 0
+Pages with broken local image path: 652
+Pages with no img tag: 0
+Pages missing entirely: 0
+Data-image pages: 0
+Errors: 0
+Rows needing review/action: 652
+
+Report folder: D:\github\ron-english-nfts\data\generated\audit-lccc-652-image-gap-pages-v1-20260521-124708
+Full audit CSV: D:\github\ron-english-nfts\data\generated\audit-lccc-652-image-gap-pages-v1-20260521-124708\lccc-652-image-gap-page-audit.csv
+Broken/review CSV: D:\github\ron-english-nfts\data\generated\audit-lccc-652-image-gap-pages-v1-20260521-124708\lccc-652-image-gap-broken-or-review.csv
+
+Changes made: none. Audit only.
