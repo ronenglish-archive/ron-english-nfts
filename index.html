@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -239,6 +239,51 @@ main.wrap > header p,
 /* PUBLIC INDEX CENTERING CLEANUP - END */
 </style>
   <link rel="icon" type="image/png" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/favicon.png">
+<style id="nft-index-legal-footer-v1">
+/* BEGIN nft index legal footer v1 */
+
+body main.wrap footer,
+body main.wrap .page-footer {
+  margin-top: 34px !important;
+  padding-top: 18px !important;
+  border-top: 1px solid rgba(0,0,0,.14) !important;
+  color: inherit !important;
+  font-size: 14px !important;
+  text-align: center !important;
+}
+
+body main.wrap .page-footer p {
+  margin: 0 0 14px !important;
+  text-align: center !important;
+}
+
+body main.wrap .footer-pills {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  margin: 0 auto !important;
+}
+
+body main.wrap .footer-pill {
+  display: inline-block !important;
+  padding: 8px 14px !important;
+  border-radius: 999px !important;
+  border: 1px solid #d6e1ff !important;
+  background: #fff !important;
+  color: #111 !important;
+  text-decoration: none !important;
+  font-size: 14px !important;
+  line-height: 1.2 !important;
+}
+
+body main.wrap .footer-pill:hover,
+body main.wrap .footer-pill:focus {
+  background: #f3f6ff !important;
+}
+
+/* END nft index legal footer v1 */
+</style>
 </head>
 
 <body>
@@ -425,9 +470,12 @@ main.wrap > header p,
         </article>
       </div>
     </section>
-
-    <footer>
-      Published via GitHub Pages for research, scholarship, and reference purposes. Additional project pages and documentary sources will be added as the archive expands.
+    <footer class="page-footer">
+      <p>Published via GitHub Pages for research, scholarship, and reference purposes. Additional project pages and documentary sources will be added as the archive expands.</p>
+      <nav class="footer-pills" aria-label="Footer navigation">
+        <a class="footer-pill" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/">Catalogue Home</a>
+        <a class="footer-pill" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/terms-of-use.html">Terms of Use, Copyright &amp; Research Notice</a>
+      </nav>
     </footer>
 
   </main>
