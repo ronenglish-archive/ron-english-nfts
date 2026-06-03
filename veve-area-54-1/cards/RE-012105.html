@@ -13,6 +13,100 @@
     .preview-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1rem; }
     .preview-grid img { width:100%; height:auto; object-fit:contain; background:#fff; border:1px solid #ddd; border-radius:14px; }
   </style>
+<style id="nft-detail-header-pills-v1">
+/* BEGIN NFT detail header/pill cleanup */
+body > header,
+.site-header,
+.page-header,
+.detail-header,
+.work-header,
+main > header {
+  text-align: center !important;
+}
+
+body > header h1,
+.site-header h1,
+.page-header h1,
+.detail-header h1,
+.work-header h1,
+main > header h1 {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+body > header nav,
+.site-header nav,
+.page-header nav,
+.detail-header nav,
+.work-header nav,
+main > header nav,
+.top-nav,
+.nav-pills,
+.pill-nav,
+.breadcrumbs,
+.breadcrumb-nav,
+.project-nav,
+.year-return-nav,
+nav[aria-label] {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 0.6rem !important;
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.nav-pill,
+.top-nav a,
+.nav-pills a,
+.pill-nav a,
+.breadcrumbs a,
+.breadcrumb-nav a,
+.project-nav a,
+.year-return-nav a,
+nav[aria-label] a {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0.55rem 0.9rem !important;
+  border: 1px solid rgba(0,0,0,.16) !important;
+  border-radius: 999px !important;
+  background: #fff !important;
+  color: inherit !important;
+  text-decoration: none !important;
+  line-height: 1.2 !important;
+}
+
+.nav-pill:hover,
+.nav-pill:focus,
+.top-nav a:hover,
+.top-nav a:focus,
+.nav-pills a:hover,
+.nav-pills a:focus,
+.pill-nav a:hover,
+.pill-nav a:focus,
+.breadcrumbs a:hover,
+.breadcrumbs a:focus,
+.breadcrumb-nav a:hover,
+.breadcrumb-nav a:focus,
+.project-nav a:hover,
+.project-nav a:focus,
+.year-return-nav a:hover,
+.year-return-nav a:focus,
+nav[aria-label] a:hover,
+nav[aria-label] a:focus {
+  background: #f3f6ff !important;
+}
+
+.simple-links a,
+.section-block a {
+  overflow-wrap: anywhere;
+}
+/* END NFT detail header/pill cleanup */
+</style>
 </head>
 <body>
   <header class="site-header">
@@ -88,9 +182,6 @@
       <p><strong>Research source:</strong> Expanded VeVe page screenshots reviewed June 2026.</p>
     </section>
 <!-- VEVE-EXPANDED-METADATA:END -->
-
-
-
 
     <section class="section-block simple-links">
       <h2>Selected Online Circulation</h2>
