@@ -257,6 +257,38 @@ body .wrap p,
 }
 </style>
 <!-- CATALOGUE-NFT-CENTERING-END -->
+<!-- UKRAINE-NFT-CARD-CENTERING-START -->
+<style>
+/* Targeted layout correction for the Ukraine Relief Project NFT index. */
+.area-card-grid {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: stretch !important;
+  gap: 18px !important;
+  width: 100% !important;
+  margin: 24px auto 36px !important;
+}
+
+.area-card-grid > .area-card,
+.area-card-grid > a.area-card {
+  flex: 0 1 280px !important;
+  width: 280px !important;
+  max-width: 280px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+@media (max-width: 640px) {
+  .area-card-grid > .area-card,
+  .area-card-grid > a.area-card {
+    flex-basis: min(280px, 100%) !important;
+    width: min(280px, 100%) !important;
+    max-width: 100% !important;
+  }
+}
+</style>
+<!-- UKRAINE-NFT-CARD-CENTERING-END -->
 </head>
 
 <body>
