@@ -335,13 +335,14 @@ nav[aria-label] a:focus {
 </style>
 <!-- CATALOGUE-NFT-CENTERING-START -->
 <style>
-/* Catalogue-wide NFT presentation standard: centered public-facing content. */
+/* Catalogue-wide NFT presentation standard. */
 body main,
 body .page-content,
 body .wrap {
   text-align: center;
 }
 
+/* Headings, descriptive text, and research/source sections. */
 body main h1,
 body main h2,
 body main h3,
@@ -372,16 +373,47 @@ body .wrap p,
   text-align: center !important;
 }
 
+/*
+  Center the actual card tracks.
+  The original NFT CSS often used:
+      repeat(auto-fit, minmax(..., 1fr))
+  which stretches a short row across the full page and leaves two-card
+  groups visually parked at the left. Fixed maximum track widths keep
+  incomplete rows centered.
+*/
+.area-card-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(230px, 100%), 280px)) !important;
+  justify-content: center !important;
+  justify-items: stretch !important;
+}
+
+.project-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(245px, 100%), 320px)) !important;
+  justify-content: center !important;
+  justify-items: stretch !important;
+}
+
+.support-grid,
+.card-grid,
+.cards-grid,
+.nft-grid,
+.collection-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(230px, 100%), 300px)) !important;
+  justify-content: center !important;
+  justify-items: stretch !important;
+}
+
+/* Fallback for any card row implemented as flex. */
 .area-card-grid,
 .project-grid,
 .support-grid,
 .card-grid,
 .cards-grid,
 .nft-grid,
-.grid,
-.collection-grid {
-  justify-content: center !important;
-  justify-items: center !important;
+.collection-grid,
+.grid {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .area-card-grid > *,
@@ -393,11 +425,14 @@ body .wrap p,
 .collection-grid > * {
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
+/* Navigation remains centered as well. */
 .nav-pills,
 .top-nav,
 .footer-nav,
+.footer-pills,
 .pill-nav {
   justify-content: center !important;
   text-align: center !important;
