@@ -255,6 +255,56 @@ body .wrap p,
 }
 </style>
 <!-- CATALOGUE-NFT-CENTERING-END -->
+<!-- NFT-CENTER-FINAL-CARD-ROWS-V1-START -->
+<style id="nft-center-final-card-rows-v1">
+/* Center incomplete final rows at every index depth. Grid justify-content
+   alone cannot center an incomplete final grid row; flex wrapping can. */
+.area-card-grid,
+.project-grid,
+.range-grid,
+.preview-grid,
+.support-grid,
+.card-grid,
+.cards-grid,
+.nft-grid,
+.collection-grid,
+.research-grid {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: stretch;
+}
+.area-card-grid > *,
+.range-grid > *,
+.preview-grid > *,
+.support-grid > *,
+.card-grid > *,
+.cards-grid > *,
+.nft-grid > *,
+.collection-grid > *,
+.research-grid > * {
+  flex: 0 1 280px;
+  width: min(280px, 100%);
+  min-width: 0;
+  box-sizing: border-box;
+}
+.project-grid > * {
+  flex: 0 1 320px;
+  width: min(320px, 100%);
+  min-width: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 520px) {
+  .area-card-grid > *, .project-grid > *, .range-grid > *,
+  .preview-grid > *, .support-grid > *, .card-grid > *,
+  .cards-grid > *, .nft-grid > *, .collection-grid > *,
+  .research-grid > * {
+    flex-basis: min(100%, 320px);
+    max-width: 100%;
+  }
+}
+</style>
+<!-- NFT-CENTER-FINAL-CARD-ROWS-V1-END -->
 </head>
 
 <body>
