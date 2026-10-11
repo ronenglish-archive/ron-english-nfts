@@ -489,6 +489,41 @@ body .wrap p,
 }
 </style>
 <!-- NFT-CENTER-FINAL-CARD-ROWS-V1-END -->
+<!-- NFT-AREA54-FIVE-COLUMN-INDEX-V1 -->
+<style id="nft-area54-five-column-index-v1">
+/* Area 54 only: five narrow cards at wide widths, centered final rows. */
+body .area-card-grid {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: stretch !important;
+  gap: 14px !important;
+}
+body .area-card-grid > .area-card {
+  box-sizing: border-box !important;
+  flex: 0 0 calc((100% - 56px) / 5) !important;
+  width: calc((100% - 56px) / 5) !important;
+  max-width: calc((100% - 56px) / 5) !important;
+  margin: 0 !important;
+}
+body .area-card-grid > .area-card img {
+  height: 185px !important;
+  max-height: 185px !important;
+  object-fit: contain !important;
+}
+@media (max-width: 950px) {
+  body .area-card-grid > .area-card { flex-basis: calc((100% - 42px) / 4) !important; width: calc((100% - 42px) / 4) !important; max-width: calc((100% - 42px) / 4) !important; }
+}
+@media (max-width: 730px) {
+  body .area-card-grid > .area-card { flex-basis: calc((100% - 28px) / 3) !important; width: calc((100% - 28px) / 3) !important; max-width: calc((100% - 28px) / 3) !important; }
+}
+@media (max-width: 520px) {
+  body .area-card-grid > .area-card { flex-basis: calc((100% - 14px) / 2) !important; width: calc((100% - 14px) / 2) !important; max-width: calc((100% - 14px) / 2) !important; }
+}
+@media (max-width: 340px) {
+  body .area-card-grid > .area-card { flex-basis: 100% !important; width: 100% !important; max-width: 100% !important; }
+}
+</style>
 </head>
 
 <body>
