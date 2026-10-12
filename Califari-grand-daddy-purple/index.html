@@ -236,7 +236,32 @@ body .wrap p,
 .nft-site-top-nav-wrap > nav { display:flex !important; flex-wrap:wrap !important; align-items:center !important; justify-content:center !important; gap:.6rem !important; margin:0 auto 18px !important; text-align:center !important; }
 .nft-site-top-nav-wrap a { display:inline-flex !important; align-items:center !important; justify-content:center !important; }
 </style>
-</head>
+<style id="nft-single-entry-index-v1">
+/* Single-entry projects: plain introduction and one clickable artwork card. */
+body main.project-page .series-intro.single-entry-intro-v1 {
+  display:block !important;
+  max-width:900px !important;
+  width:100% !important;
+  margin:0 auto 28px !important;
+  padding:0 !important;
+  border:0 !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+  background:transparent !important;
+  text-align:center !important;
+}
+body main.project-page .series-intro.single-entry-intro-v1 p {
+  margin:0 auto 12px !important;
+  line-height:1.6 !important;
+  text-align:center !important;
+}
+body main.project-page .series-intro.single-entry-intro-v1 p:last-child {margin-bottom:0 !important;}
+body main.project-page > a.detail-card {
+  display:block;
+  width:min(100%,520px);
+  margin:0 auto 28px;
+}
+</style></head>
 <body>
   <!-- NFT-TOP-NAV-STANDARD-V1 -->
   <div class="nft-site-top-nav-wrap">
@@ -252,10 +277,7 @@ body .wrap p,
     
   </header>
   <main class="project-page">
-    <div class="hero-card">
-      <img src="../images/heroes/califari-grand-daddy-purple.jpg" alt="Califari&#39;s Strain Art Trading Card Series: Grand Daddy Purple" loading="lazy" />
-    </div>
-    <section class="intro-card">
+    <section class="series-intro single-entry-intro-v1">
       <p>A single animated NFT trading card by Ron English for Califari, featuring unreleased Bernie Worrell music and animation by Liz Sabol.</p>
       
     </section>
@@ -264,6 +286,13 @@ body .wrap p,
           <div><h2>View artwork: Grand Daddy Purple</h2></div>
         </a>
     </main>
+
+<!-- NFT-CATEGORY-SEQUENCE-V1:START -->
+  <nav class="top-nav nft-category-sequence-v1" aria-label="NFT collection sequence">
+      <a class="nav-pill" href="../Veve-fauxlosophy/index.html">&larr; Previous: Fauxlosophy #1</a>
+      <a class="nav-pill" href="../A-tune-from-the-tomb/index.html">Next: A Tune from the Tomb / Jeremiah Grin &rarr;</a>
+  </nav>
+<!-- NFT-CATEGORY-SEQUENCE-V1:END -->
 
 <footer class="nft-global-github-footer">Published via GitHub Pages<br>for long-term public access.</footer>
 <!-- CALIFARI-INDEX-COPY-STREAMLINED-V1 -->

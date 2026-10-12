@@ -291,7 +291,32 @@ body main .nft-collection-intro-v1 p {
 }
 body main .nft-collection-intro-v1 p:last-child { margin-bottom: 0 !important; }
 </style>
-</head>
+<style id="nft-single-entry-index-v1">
+/* Single-entry projects: plain introduction and one clickable artwork card. */
+body main.project-page .series-intro.single-entry-intro-v1 {
+  display:block !important;
+  max-width:900px !important;
+  width:100% !important;
+  margin:0 auto 28px !important;
+  padding:0 !important;
+  border:0 !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+  background:transparent !important;
+  text-align:center !important;
+}
+body main.project-page .series-intro.single-entry-intro-v1 p {
+  margin:0 auto 12px !important;
+  line-height:1.6 !important;
+  text-align:center !important;
+}
+body main.project-page .series-intro.single-entry-intro-v1 p:last-child {margin-bottom:0 !important;}
+body main.project-page > a.detail-card {
+  display:block;
+  width:min(100%,520px);
+  margin:0 auto 28px;
+}
+</style></head>
 <body>
   <!-- NFT-TOP-NAV-STANDARD-V1 -->
   <div class="nft-site-top-nav-wrap">
@@ -307,19 +332,22 @@ body main .nft-collection-intro-v1 p:last-child { margin-bottom: 0 !important; }
     
   </header>
   <main class="project-page">
-    <section class="nft-collection-intro-v1">
+    <section class="series-intro single-entry-intro-v1">
       <p>A group NFT / phygital art project curated by gmoney and hosted through Superchief Gallery NFT, with Ron English listed among the participating artists.</p>
       <p>This page records the project at a collaboration/project level, with one individual catalogue page for the documented Ron English-related NFT entry.</p>
     </section>
-    <div class="hero-card nft-hero-reference-v1">
-      <img src="../images/heroes/time-to-be-happy-0001.jpg" alt="Time To Be Happy 00:01" loading="lazy" />
-    </div>
     
     <a class="detail-card" href="cards/RE-012145.html">
           <img src="../images/heroes/time-to-be-happy-0001.jpg" alt="Time To Be Happy 00:01" loading="lazy" />
           <div><h2>Time To Be Happy 00:01</h2></div>
         </a>
     </main>
+
+<!-- NFT-CATEGORY-SEQUENCE-V1:START -->
+  <nav class="top-nav nft-category-sequence-v1" aria-label="NFT collection sequence">
+      <a class="nav-pill" href="../A-tune-from-the-tomb/index.html">&larr; Previous: A Tune from the Tomb / Jeremiah Grin</a>
+  </nav>
+<!-- NFT-CATEGORY-SEQUENCE-V1:END -->
 
 <footer class="nft-global-github-footer">Published via GitHub Pages<br>for long-term public access.</footer>
 </body>

@@ -236,7 +236,32 @@ body .wrap p,
 .nft-site-top-nav-wrap > nav { display:flex !important; flex-wrap:wrap !important; align-items:center !important; justify-content:center !important; gap:.6rem !important; margin:0 auto 18px !important; text-align:center !important; }
 .nft-site-top-nav-wrap a { display:inline-flex !important; align-items:center !important; justify-content:center !important; }
 </style>
-</head>
+<style id="nft-single-entry-index-v1">
+/* Single-entry projects: plain introduction and one clickable artwork card. */
+body main.project-page .series-intro.single-entry-intro-v1 {
+  display:block !important;
+  max-width:900px !important;
+  width:100% !important;
+  margin:0 auto 28px !important;
+  padding:0 !important;
+  border:0 !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+  background:transparent !important;
+  text-align:center !important;
+}
+body main.project-page .series-intro.single-entry-intro-v1 p {
+  margin:0 auto 12px !important;
+  line-height:1.6 !important;
+  text-align:center !important;
+}
+body main.project-page .series-intro.single-entry-intro-v1 p:last-child {margin-bottom:0 !important;}
+body main.project-page > a.detail-card {
+  display:block;
+  width:min(100%,520px);
+  margin:0 auto 28px;
+}
+</style></head>
 <body>
   <!-- NFT-TOP-NAV-STANDARD-V1 -->
   <div class="nft-site-top-nav-wrap">
@@ -252,10 +277,7 @@ body .wrap p,
     
   </header>
   <main class="project-page">
-    <div class="hero-card">
-      <img src="../images/heroes/a-tune-from-the-tomb-jeremiah-grin.jpg" alt="A Tune from the Tomb / Jeremiah Grin" loading="lazy" />
-    </div>
-    <section class="intro-card">
+    <section class="series-intro single-entry-intro-v1">
       <p>A Daniel Johnston x Ron English x Clutter Studios NFT/music collaboration centered on Jeremiah Grin and an unreleased Daniel Johnston-related song.</p>
       <p>This page records the project at a collaboration/project level, with one individual catalogue page for the documented Ron English-related NFT entry.</p>
     </section>
@@ -264,6 +286,13 @@ body .wrap p,
           <div><h2>A Tune from the Tomb / Jeremiah Grin</h2></div>
         </a>
     </main>
+
+<!-- NFT-CATEGORY-SEQUENCE-V1:START -->
+  <nav class="top-nav nft-category-sequence-v1" aria-label="NFT collection sequence">
+      <a class="nav-pill" href="../Califari-grand-daddy-purple/index.html">&larr; Previous: Grand Daddy Purple | Califari</a>
+      <a class="nav-pill" href="../Time-to-be-happy-0001/index.html">Next: Time To Be Happy 00:01 &rarr;</a>
+  </nav>
+<!-- NFT-CATEGORY-SEQUENCE-V1:END -->
 
 <footer class="nft-global-github-footer">Published via GitHub Pages<br>for long-term public access.</footer>
 </body>
