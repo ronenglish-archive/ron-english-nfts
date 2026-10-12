@@ -413,6 +413,16 @@ section[aria-label="Interior preview images"] .preview-grid > img {
   }
 }
 </style>
+<style id="fauxlosophy-interior-outer-card-width-v1">
+/* Limit the OUTER Interior Preview Images panel, not its three image cards. */
+body main section.section-block[aria-label="Interior preview images"] {
+  box-sizing: border-box !important;
+  width: calc(100% - 32px) !important;
+  max-width: 800px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+</style>
 </head>
 <body>
   <!-- NFT-TOP-NAV-STANDARD-V1 -->
