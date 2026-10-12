@@ -381,6 +381,64 @@ body main .nft-collection-intro-v1 p {
 }
 body main .nft-collection-intro-v1 p:last-child { margin-bottom: 0 !important; }
 </style>
+<style id="nft-david-warhol-balanced-cards-v1">
+/* Two deliberately grouped, centered cards; override older auto margins. */
+body main.page-content > section.project-grid {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: stretch !important;
+  justify-content: center !important;
+  align-content: start !important;
+  width: min(100%, 720px) !important;
+  max-width: 720px !important;
+  margin: 8px auto 38px !important;
+  gap: 18px !important;
+  padding: 0 !important;
+}
+body main.page-content > section.project-grid > a.project-card {
+  box-sizing: border-box !important;
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 0 1 316px !important;
+  width: 316px !important;
+  max-width: min(316px, 100%) !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  border-radius: 18px !important;
+  overflow: hidden !important;
+  background: #fff !important;
+}
+body main.page-content > section.project-grid > a.project-card img {
+  box-sizing: border-box !important;
+  display: block !important;
+  width: 100% !important;
+  height: 270px !important;
+  object-fit: contain !important;
+  padding: 12px !important;
+  background: #fff !important;
+}
+body main.page-content > section.project-grid > a.project-card .copy {
+  flex: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 14px 12px 18px !important;
+}
+body main.page-content > section.project-grid > a.project-card .copy h2 {
+  margin: 0 !important;
+  font-size: clamp(1.2rem, 2.5vw, 1.45rem) !important;
+  line-height: 1.25 !important;
+  text-align: center !important;
+}
+@media (max-width: 690px) {
+  body main.page-content > section.project-grid {
+    gap: 16px !important;
+  }
+  body main.page-content > section.project-grid > a.project-card {
+    flex-basis: min(316px, 100%) !important;
+  }
+}
+</style>
 </head>
 <body>
   <!-- NFT-TOP-NAV-STANDARD-V1 -->
