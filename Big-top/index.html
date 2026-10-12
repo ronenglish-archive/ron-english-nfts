@@ -330,6 +330,61 @@ body .wrap p,
 .nft-site-top-nav-wrap > nav { display:flex !important; flex-wrap:wrap !important; align-items:center !important; justify-content:center !important; gap:.6rem !important; margin:0 auto 18px !important; text-align:center !important; }
 .nft-site-top-nav-wrap a { display:inline-flex !important; align-items:center !important; justify-content:center !important; }
 </style>
+<style id="nft-nifty-essential-hero-intro-standard-v1">
+/* Nifty Essential reference: title, simple introduction, then centered 760px hero. */
+body main .nft-hero-reference-v1,
+body main .hero.nft-hero-reference-v1,
+body main .hero-card.nft-hero-reference-v1,
+body main.project-page .hero-card.nft-hero-reference-v1 {
+  display: block !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: 760px !important;
+  margin: 24px auto 34px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  overflow: visible !important;
+  box-shadow: none !important;
+  text-align: center !important;
+}
+body main .nft-hero-reference-v1 > img,
+body main .hero.nft-hero-reference-v1 > img,
+body main .hero-card.nft-hero-reference-v1 > img {
+  display: block !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: min(760px, 100%) !important;
+  max-height: none !important;
+  height: auto !important;
+  object-fit: contain !important;
+  margin: 0 auto !important;
+  border-radius: 18px !important;
+  box-shadow: 0 18px 45px rgba(0,0,0,.14) !important;
+  background: #fff !important;
+}
+body main .nft-collection-intro-v1 {
+  display: block !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: 900px !important;
+  margin: 0 auto 24px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: inherit !important;
+  text-align: center !important;
+}
+body main .nft-collection-intro-v1 p {
+  margin: 0 auto 12px !important;
+  max-width: 900px !important;
+  line-height: 1.6 !important;
+  text-align: center !important;
+}
+body main .nft-collection-intro-v1 p:last-child { margin-bottom: 0 !important; }
+</style>
 </head>
 <body>
   <!-- NFT-TOP-NAV-STANDARD-V1 -->
@@ -346,12 +401,13 @@ body .wrap p,
     
   </header>
   <main class="page-content">
-    <div class="hero-card">
-      <img src="Images/veve-big-top-popaganda-1.jpg" alt="Big Top Popaganda #1 cover" loading="lazy" />
-    </div>
-    <section class="series-intro">
+    <section class="nft-collection-intro-v1">
       <p>Big Top Popaganda #1 is a readable VeVe digital comic by Ron English, released with two cover variants. The comic contains origin material for MC Supersized and Orion the Obese Alien, plus parody-ad and bonus Delusionville content.</p>
     </section>
+    <div class="hero-card nft-hero-reference-v1">
+      <img src="Images/veve-big-top-popaganda-1.jpg" alt="Big Top Popaganda #1 cover" loading="lazy" />
+    </div>
+    
     <section class="project-grid" aria-label="Big Top Popaganda cover index">
       <a class="project-card" href="cards/RE-012095.html">
           <img src="Images/veve-big-top-popaganda-1.jpg" alt="Big Top Popaganda #1 - Common Cover" loading="lazy" />

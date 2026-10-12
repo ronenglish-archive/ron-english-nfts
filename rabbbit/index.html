@@ -364,6 +364,61 @@ body .wrap p,
 .nft-site-top-nav-wrap > nav { display:flex !important; flex-wrap:wrap !important; align-items:center !important; justify-content:center !important; gap:.6rem !important; margin:0 auto 18px !important; text-align:center !important; }
 .nft-site-top-nav-wrap a { display:inline-flex !important; align-items:center !important; justify-content:center !important; }
 </style>
+<style id="nft-nifty-essential-hero-intro-standard-v1">
+/* Nifty Essential reference: title, simple introduction, then centered 760px hero. */
+body main .nft-hero-reference-v1,
+body main .hero.nft-hero-reference-v1,
+body main .hero-card.nft-hero-reference-v1,
+body main.project-page .hero-card.nft-hero-reference-v1 {
+  display: block !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: 760px !important;
+  margin: 24px auto 34px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  overflow: visible !important;
+  box-shadow: none !important;
+  text-align: center !important;
+}
+body main .nft-hero-reference-v1 > img,
+body main .hero.nft-hero-reference-v1 > img,
+body main .hero-card.nft-hero-reference-v1 > img {
+  display: block !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: min(760px, 100%) !important;
+  max-height: none !important;
+  height: auto !important;
+  object-fit: contain !important;
+  margin: 0 auto !important;
+  border-radius: 18px !important;
+  box-shadow: 0 18px 45px rgba(0,0,0,.14) !important;
+  background: #fff !important;
+}
+body main .nft-collection-intro-v1 {
+  display: block !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: 900px !important;
+  margin: 0 auto 24px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: inherit !important;
+  text-align: center !important;
+}
+body main .nft-collection-intro-v1 p {
+  margin: 0 auto 12px !important;
+  max-width: 900px !important;
+  line-height: 1.6 !important;
+  text-align: center !important;
+}
+body main .nft-collection-intro-v1 p:last-child { margin-bottom: 0 !important; }
+</style>
 </head>
 
 <body>
@@ -382,12 +437,12 @@ body .wrap p,
 
     <header>
       <h1 class="page-title">VeVe: Rabbit Grin Phygital Collectibles</h1>
-      <p class="intro">
+      <p class="intro nft-collection-intro-v1">
         A VeVe phygital / digital sculpture project based on Ron English&rsquo;s Rabbit Grin imagery. Early coverage described a digital-and-physical Rabbbit Grin release, while VeVe later documented Chrome Rabbit Grin and Gold Rabbit Grin as Secret Rare digital collectibles in the Rabbit Grin series.
       </p>
     </header>
 
-    <section class="hero" aria-label="VeVe Rabbit Grin">
+    <section class="hero nft-hero-reference-v1" aria-label="VeVe Rabbit Grin">
       <img src="Images/veve-rabbbit-hero.jpg" alt="VeVe Rabbit Grin by Ron English">
     </section>
 
