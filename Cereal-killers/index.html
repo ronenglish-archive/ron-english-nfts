@@ -375,6 +375,17 @@ body .wrap p,
 .nft-site-top-nav-wrap > nav { display:flex !important; flex-wrap:wrap !important; align-items:center !important; justify-content:center !important; gap:.6rem !important; margin:0 auto 18px !important; text-align:center !important; }
 .nft-site-top-nav-wrap a { display:inline-flex !important; align-items:center !important; justify-content:center !important; }
 </style>
+<style id="nft-two-panel-spacing-rabbbit-cereal-v2">
+/* Series 4 only: keep Poo Fairy and Coco Paunch together, centered. */
+body main.wrap .cereal-section.cereal-series4-spacing-v2 > .area-card-grid.cereal-grid {
+  display:flex !important; flex-wrap:wrap !important; justify-content:center !important;
+  align-items:stretch !important; column-gap:18px !important; row-gap:18px !important;
+}
+body main.wrap .cereal-section.cereal-series4-spacing-v2 > .area-card-grid.cereal-grid > .cereal-card {
+  flex:0 1 280px !important; width:280px !important; max-width:100% !important;
+  min-width:0 !important; margin:0 !important; box-sizing:border-box !important;
+}
+</style>
 </head>
 
 <body>
@@ -503,7 +514,7 @@ body .wrap p,
         </a>
       </div>
     </section>
-    <section class="cereal-section">
+    <section class="cereal-section cereal-series4-spacing-v2">
       <h2 class="section-title">Series 4</h2>
       <p class="intro section-intro">A later VeVe Cereal Killers blind-box release pairing Poo Fairy with Coco Paunch.</p>
       <figure class="section-hero"><img src="Images/veve-cereal-killers-series4hero.jpg" alt="Ron English Cereal Killers Series 4" loading="lazy"></figure>

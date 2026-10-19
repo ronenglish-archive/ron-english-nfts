@@ -419,6 +419,17 @@ body main .nft-collection-intro-v1 p {
 }
 body main .nft-collection-intro-v1 p:last-child { margin-bottom: 0 !important; }
 </style>
+<style id="nft-two-panel-spacing-rabbbit-cereal-v2">
+/* Rabbbit: prevent automatic card margins from separating the two panels. */
+body main.wrap .rabbbit-section > .area-card-grid.rabbbit-grid {
+  display:flex !important; flex-wrap:wrap !important; justify-content:center !important;
+  align-items:stretch !important; column-gap:18px !important; row-gap:18px !important;
+}
+body main.wrap .rabbbit-section > .area-card-grid.rabbbit-grid > .rabbbit-card {
+  flex:0 1 280px !important; width:280px !important; max-width:100% !important;
+  min-width:0 !important; margin:0 !important; box-sizing:border-box !important;
+}
+</style>
 </head>
 
 <body>
