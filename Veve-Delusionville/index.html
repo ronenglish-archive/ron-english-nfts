@@ -385,6 +385,24 @@ body main .nft-collection-intro-v1 p {
 }
 body main .nft-collection-intro-v1 p:last-child { margin-bottom: 0 !important; }
 </style>
+<style id="nft-five-index-preview-panel-v1">
+/* Match Fauxlosophy's 800px outer panel and compact centered image row. */
+body main section.section-block[aria-label="Interior preview images"] {
+ box-sizing:border-box !important; width:calc(100% - 32px) !important; max-width:800px !important;
+ margin-left:auto !important; margin-right:auto !important;
+}
+body main section.section-block[aria-label="Interior preview images"] > .preview-grid {
+ display:flex !important; flex-wrap:wrap !important; justify-content:center !important;
+ align-items:flex-start !important; gap:14px !important; max-width:760px !important;
+ margin:0 auto 2rem !important;
+}
+body main section.section-block[aria-label="Interior preview images"] > .preview-grid > img {
+ display:block !important; box-sizing:border-box !important; flex:0 1 220px !important;
+ width:min(220px,100%) !important; max-width:220px !important;
+ height:auto !important; margin:0 !important; object-fit:contain !important;
+}
+@media(max-width:520px) { body main section.section-block[aria-label="Interior preview images"] > .preview-grid > img { max-width:100% !important; } }
+</style>
 </head>
 <body>
   <!-- NFT-TOP-NAV-STANDARD-V1 -->
